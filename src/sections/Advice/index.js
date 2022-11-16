@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react"
 
 function AdviceSection() {
+
+  const [advice, setAdvice] = useState([])
+
   return (
     <section>
       <h2>Advice Section</h2>
